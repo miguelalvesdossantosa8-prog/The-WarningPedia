@@ -1,0 +1,237 @@
+
+@font-face {
+    font-family: 'Everythings Falling';
+    src: url('fonte/EverythingsFalling-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Everythings Falling Light';
+    src: url('fonte/EverythingsFallingLight-Regular.ttf') format('truetype');
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.corzinha {
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+p {
+    color: white;
+    margin: 7px;
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.corzinha2 {
+     border: 1px solid white;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.corzinha3 {
+     border: 1px solid white;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.corzinhafds {
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.logo {
+    width: 450px;
+    height: auto;
+    vertical-align: middle;
+    z-index: 2;
+}
+
+.nav2{
+    height: 9vh;
+    top: 5px;
+
+}
+
+.loguinho {
+    width: 100px;
+    height: auto;
+    vertical-align: baseline;
+}
+
+nav form input {
+    margin-left: -400px;
+}
+
+tamanho-header{
+    width: -50px;
+    height: -50px;
+}
+.fundo-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    filter: blur(10px);
+    transform: scale(1.05);
+    z-index: -1;
+}
+
+.container {
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 100px;
+     background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.fakeheader{
+    border-bottom: 1px solid #e3e8e5;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-image: url(../img/fundo1.jfif);
+    width: 100%;
+    margin: 30px auto;
+    height: 60vh;
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    
+}
+
+
+
+body {
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background: linear-gradient(90deg, rgb(32, 0, 0), rgb(0, 0, 0));
+}
+
+.abaRapida ul {
+    
+    display: flex;
+    gap: 20px; 
+    list-style: none;    
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end;
+}
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.fundo {
+    background-color: rgb(68, 68, 68);
+    z-index: 4;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+
+.fundo2, .fundo3 {
+    background-color: rgb(68, 68, 68);
+    z-index: 4;
+    margin-left: 0px;
+    margin-right: 600px;
+    margin-top: 20px;
+    opacity: 0.8;
+    width: 100%;
+    justify-content: center;
+}
+
+.fundo3{
+    width: 50%;
+    margin-left: -550px;
+    margin-right: 100px;
+}
+
+.imagensDiscografia {
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.texto {
+   display: flex;
+    
+}
+
+.descer {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/raio-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 200px auto;
+    z-index: -8;
+
+
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+
+header nav ul {
+    margin-left: 0px;
+    width: 87%;
+    
+}
+
+img {
+    height: 400px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+h1, h2{
+    font-family: 'Everythings Falling Light', sans-serif;
+    height: 0px;
+    margin: 70px;
+    text-align: center;
+    color: white;
+}
+
+
+
+header{
+      border: 2px solid white;
+    position:fixed;
+    height: 10vh;
+    width: 100%; 
+    background-color: rgb(252, 248, 248);
+
+
+}
+
+ul {
+        display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
